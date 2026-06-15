@@ -1,0 +1,21 @@
+﻿je_vp_pay_to_remove_debuff_button = {
+	name = "je_vp_pay_to_remove_debuff_button"
+	desc = "je_vp_pay_to_remove_debuff_button_desc"
+
+	visible = {
+		has_journal_entry = je_vp_tax_debuff
+	}
+
+	possible = {
+		gold_reserves >= 5000000
+	}
+
+	effect = {
+		add_treasury = -5000000
+		set_variable = vp_tax_debuff_paid_var
+	}
+
+	ai_chance = {
+		value = 50
+	}
+}

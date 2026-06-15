@@ -1,0 +1,21 @@
+﻿je_vp_ger_birth_bonus = {
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	group = je_group_vanilaplus
+
+	is_shown_when_inactive = {
+		always = no
+	}
+
+	possible = {
+		c:GER ?= this
+	}
+
+	modifiers_while_active = {
+		modifier_vp_ger_birth_rate_bonus
+	}
+
+	timeout = 1825
+
+	weight = 0
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

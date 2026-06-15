@@ -1,0 +1,14 @@
+﻿modifier_vp_tax_debuff = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds"
+	tax_income_add = -0.15
+}
+
+modifier_vp_sic_prestige_debuff = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds"
+	country_prestige_add = -100
+}
+
+modifier_vp_ger_birth_rate_bonus = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_health_positive.dds"
+	state_birth_rate_mult = 0.10
+}
