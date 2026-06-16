@@ -3262,44 +3262,15 @@
 		}
 	}
 	s:STATE_CAMBODIA={
-		region_state:SIA={
-			create_building={
-				building="building_tea_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:SIA"
-						levels=1
-						region="STATE_CAMBODIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:SIA"
-						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_angkor_wat"
-				level=1
-			}
-		}
-		region_state:CAM={
+		
+		region_state:DAI={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CAM"
-						levels=1
+						country="c:DAI"
+						levels=10
 						region="STATE_CAMBODIA"
 					}
 				}
@@ -3311,7 +3282,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CAM"
+						country="c:DAI"
 						levels=1
 						region="STATE_CAMBODIA"
 					}
@@ -3323,23 +3294,52 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:CAM"
+						country="c:DAI"
 						levels=15
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
+		
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:DAI"
+						levels=1
+						region="STATE_CAMBODIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:DAI"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_angkor_wat"
+				level=1
+			}
 		}
 	}
 	s:STATE_BANGKOK={
-		region_state:SIA={
+		region_state:DAI={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:SIA"
-						levels=2
+						country="c:DAI"
+						levels=20
 					}
 				}
 				reserves=1
@@ -3350,7 +3350,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SIA"
+						country="c:DAI"
 						levels=2
 						region="STATE_BANGKOK"
 					}
@@ -3363,7 +3363,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:SIA"
+						country="c:DAI"
 						levels=2
 						region="STATE_BANGKOK"
 					}
@@ -3376,7 +3376,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SIA"
+						country="c:DAI"
 						levels=1
 						region="STATE_BANGKOK"
 					}
@@ -3389,7 +3389,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SIA"
+						country="c:DAI"
 						levels=1
 						region="STATE_BANGKOK"
 					}
@@ -3401,7 +3401,7 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:SIA"
+						country="c:DAI"
 						levels=20
 					}
 				}
@@ -3412,7 +3412,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:SIA"
+						country="c:DAI"
 						levels=3
 					}
 				}
@@ -3547,7 +3547,7 @@
 					building={
 						type="building_trade_center"
 						country="c:DAI"
-						levels=1
+						levels=15
 						region="STATE_MEKONG"
 					}
 				}
@@ -3604,13 +3604,27 @@
 		}
 	}
 	s:STATE_LAOS={
-		region_state:LUA={
+		
+		
+		region_state:DAI={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:DAI"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		
 			create_building={
 				building="building_opium_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:LUA"
+						country="c:DAI"
 						levels=2
 						region="STATE_LAOS"
 					}
@@ -3622,21 +3636,20 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:LUA"
+						country="c:DAI"
 						levels=8
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:SIA={
+		
 			create_building={
 				building="building_opium_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SIA"
+						country="c:DAI"
 						levels=1
 						region="STATE_LAOS"
 					}
@@ -3648,21 +3661,8 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:SIA"
+						country="c:DAI"
 						levels=5
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:CHP={
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:CHP"
-						levels=3
 					}
 				}
 				reserves=1
@@ -3671,13 +3671,13 @@
 		}
 	}
 	s:STATE_CHIANG_MAI={
-		region_state:CMI={
+		region_state:DAI={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CMI"
+						country="c:DAI"
 						levels=1
 						region="STATE_CHIANG_MAI"
 					}
@@ -3690,7 +3690,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:CMI"
+						country="c:DAI"
 						levels=1
 						region="STATE_CHIANG_MAI"
 					}
@@ -3702,7 +3702,7 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:CMI"
+						country="c:DAI"
 						levels=10
 					}
 				}
@@ -3712,13 +3712,13 @@
 		}
 	}
 	s:STATE_NAKHON_RATCHASIMA={
-		region_state:SIA={
+		region_state:DAI={
 			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
 						type="building_rice_farm"
-						country="c:SIA"
+						country="c:DAI"
 						levels=1
 						region="STATE_NAKHON_RATCHASIMA"
 					}
@@ -3731,7 +3731,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SIA"
+						country="c:DAI"
 						levels=1
 						region="STATE_NAKHON_RATCHASIMA"
 					}
@@ -3744,7 +3744,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SIA"
+						country="c:DAI"
 						levels=1
 						region="STATE_NAKHON_RATCHASIMA"
 					}
@@ -3756,7 +3756,7 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:SIA"
+						country="c:DAI"
 						levels=15
 					}
 				}
@@ -3766,13 +3766,13 @@
 		}
 	}
 	s:STATE_TENASSERIM={
-		region_state:BIC={
+		region_state:DAI={
 			create_building={
 				building="building_dye_plantation"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:BIC"
+						country="c:DAI"
 						levels=2
 						region="STATE_TENASSERIM"
 					}
@@ -3784,16 +3784,16 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:BIC"
+						country="c:DAI"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+		
 		}
-		region_state:SIA={
-		}
+		
 	}
 	s:STATE_KACHIN={
 		region_state:BUR={

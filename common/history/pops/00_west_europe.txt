@@ -946,7 +946,7 @@
 	}
 	# Zuidholland, Noordholland, Zeeland, and Utrecht
 	s:STATE_HOLLAND = {
-		region_state:NET = {
+		region_state:BEL = {
 			create_pop = {
 				culture = dutch
 				size = 842331
@@ -977,7 +977,7 @@
 	}
 	# Friesland, Overijssel, Groningen, and Drenthe
 	s:STATE_FRIESLAND = {
-		region_state:NET = {
+		region_state:BEL = {
 			create_pop = {
 				culture = dutch
 				size = 528678
@@ -1000,7 +1000,23 @@
 	}
 	# Noordbrabant, Gelderland, and Limburg
 	s:STATE_GELRE = {
-		region_state:NET = {
+		
+		region_state:BEL = {
+			create_pop = {
+				culture = dutch
+				religion = catholic
+				size = 160440
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 4100
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 901
+			}
+		
 			create_pop = {
 				culture = dutch
 				size = 192091
@@ -1025,43 +1041,9 @@
 				size = 15101
 			}
 		}
-		region_state:BEL = {
-			create_pop = {
-				culture = dutch
-				religion = catholic
-				size = 160440
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4100
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 901
-			}
-		}
 	}
 	s:STATE_WALLONIA = {
-		region_state:LUX = {
-			create_pop = {
-				culture = wallonian
-				size = 103992
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 71996
-			}
-			create_pop = {
-				culture = north_german
-				size = 572
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 210
-			}
-		}
+		
 		# Hainaut, Liège, Luxembourg, and Namur
 		region_state:BEL = { #
 			create_pop = {
@@ -1089,6 +1071,24 @@
 			create_pop = {
 				culture = ashkenazi
 				size = 205
+			}
+		
+			create_pop = {
+				culture = wallonian
+				size = 103992
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 71996
+			}
+			create_pop = {
+				culture = north_german
+				size = 572
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 210
 			}
 		}
 	}

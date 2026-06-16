@@ -464,7 +464,7 @@ HHE = {
 FTJ = {
 	color = { 230 125 127 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
@@ -1040,7 +1040,7 @@ AIR = {
 
 MSN = {
 	color = { 230 231 62 }
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
@@ -1090,7 +1090,7 @@ JLF = {
 
 FTR = {
 	color = { 115 204 102 }
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
@@ -1130,7 +1130,7 @@ MOS = {
 
 KRT = {
 	color = { 127 28 45 }
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
@@ -1140,7 +1140,7 @@ KRT = {
 
 SGU = {
 	color = { 27 28 145 }
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
@@ -1787,7 +1787,7 @@ QWR = { # Qwara, sometimes spelled 'Quara' in literature, or even 'Quoara' if yo
 TGI = { # Tungi
 	color = { 72 92 12 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
@@ -1909,7 +1909,7 @@ DIO = { # Diola
 AGC = { # Angoche
 	color = { 255 180 0 }
 
-	country_type = unrecognized
+	country_type = decentralized
 
 	tier = principality
 
