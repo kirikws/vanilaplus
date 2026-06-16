@@ -473,16 +473,16 @@
 				culture = equatorial_bantu
 				size = 20000
 			}
-		}
-		region_state:BRG = {
+		
 			create_pop = {
 				culture = mande
 				size = 40000
 			}
 		}
+		
 	}
 	s:STATE_BENIN = {
-		region_state:BEN = {
+		region_state:SOK = {
 			create_pop = {
 				culture = edo
 				size = 493792
@@ -511,7 +511,7 @@
 		}
 	}
 	s:STATE_YORUBA_STATES = {
-		region_state:OYO = {
+		region_state:SOK = {
 			create_pop = {
 				culture = yoruba
 				size = 1548008
@@ -524,7 +524,7 @@
 		}
 	}
 	s:STATE_NIGER_DELTA = {
-		region_state:IBO = {
+		region_state:SOK = {
 			create_pop = {
 				culture = ibo
 				size = 1048000
@@ -556,47 +556,7 @@
 	}
 	# If anyone has better numbers for ethnic makeup and overall population figures, hmu
 	s:STATE_OUTER_HAUSALAND = {
-		region_state:HAU = {
-			create_pop = {
-				culture = hausa
-				size = 168948
-			}
-			create_pop = {
-				culture = dyula
-				size = 15960
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 95534
-			}
-			create_pop = {
-				culture = tuareg
-				size = 36478
-			}
-			create_pop = {
-				culture = songhai
-				size = 30212
-			}
-			create_pop = {
-				culture = fulbe
-				size = 24505
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tuareg
-				size = 11400
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = songhai
-				size = 8550
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = fulbe
-				size = 8550
-			}
-		}
+		
 		region_state:SOK = {
 			create_pop = {
 				culture = hausa
@@ -637,8 +597,7 @@
 				culture = fulbe
 				size = 6450
 			}
-		}
-		region_state:BOR = {
+		
 			create_pop = {
 				culture = kanuri
 				size = 88000
@@ -652,10 +611,51 @@
 				culture = equatorial_bantu
 				size = 3302
 			}
+		
+			create_pop = {
+				culture = hausa
+				size = 168948
+			}
+			create_pop = {
+				culture = dyula
+				size = 15960
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 95534
+			}
+			create_pop = {
+				culture = tuareg
+				size = 36478
+			}
+			create_pop = {
+				culture = songhai
+				size = 30212
+			}
+			create_pop = {
+				culture = fulbe
+				size = 24505
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tuareg
+				size = 11400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = songhai
+				size = 8550
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fulbe
+				size = 8550
+			}
 		}
+		
 	}
 	s:STATE_BORNU = {
-		region_state:BOR = {
+		region_state:SOK = {
 			create_pop = {
 				culture = kanuri
 				size = 423988
@@ -901,7 +901,7 @@
 				size = 172
 			}
 		}
-		region_state:ASH = {
+		region_state:KNG = {
 			create_pop = {
 				culture = akan
 				size = 436308
@@ -922,7 +922,7 @@
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:ASH = {
+		region_state:MOS = {
 			create_pop = {
 				culture = ewe
 				size = 20000
@@ -958,7 +958,26 @@
 		}
 	}
 	s:STATE_DAHOMEY = {
-		region_state:DAH = {
+		
+		region_state:SOK = {
+			create_pop = {
+				culture = mande
+				size = 129704
+			}
+			create_pop = {
+				culture = fulbe
+				size = 42924
+			}
+			create_pop = {
+				culture = songhai
+				size = 27460
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fulbe
+				size = 7000
+			}
+		
 			create_pop = {
 				culture = fon
 				size = 287988
@@ -980,25 +999,6 @@
 				pop_type = slaves
 				culture = fulbe
 				size = 13000
-			}
-		}
-		region_state:BRG = {
-			create_pop = {
-				culture = mande
-				size = 129704
-			}
-			create_pop = {
-				culture = fulbe
-				size = 42924
-			}
-			create_pop = {
-				culture = songhai
-				size = 27460
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = fulbe
-				size = 7000
 			}
 		}
 	}
@@ -1124,7 +1124,37 @@
 		}
 	}
 	s:STATE_TANGANYIKA = {
-		region_state:NYM = {
+		
+		
+		
+		
+		
+		region_state:BUG = {
+			create_pop = {
+				culture = rundi
+				size = 452004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = rundi
+				size = 16000
+			}
+		
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 116600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 7000
+			}
+		
+			create_pop = {
+				culture = maasai
+				size = 31900
+			}
+		
 			create_pop = {
 				culture = nyamwezi
 				size = 316200
@@ -1148,8 +1178,17 @@
 				culture = lacustrine_bantu
 				size = 25000
 			}
-		}
-		region_state:SKM = {
+		
+			create_pop = {
+				culture = ruanda
+				size = 501996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = ruanda
+				size = 10000
+			}
+		
 			create_pop = {
 				culture = sukuma
 				religion = animist
@@ -1160,45 +1199,6 @@
 				culture = nyamwezi
 				religion = animist
 				size = 15000
-			}
-		}
-		region_state:MSI = {
-			create_pop = {
-				culture = maasai
-				size = 31900
-			}
-		}
-		region_state:KRG = {
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 116600
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 7000
-			}
-		}
-		region_state:RWD = {
-			create_pop = {
-				culture = ruanda
-				size = 501996
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = ruanda
-				size = 10000
-			}
-		}
-		region_state:BRD = {
-			create_pop = {
-				culture = rundi
-				size = 452004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = rundi
-				size = 16000
 			}
 		}
 	}
@@ -1222,22 +1222,7 @@
 				size = 22000
 			}
 		}
-		region_state:WTU = {
-			# total number: 18500. Historical figure might've been a fifth of this, judging by Lamu County's current population versus Kenya's as a whole. Number inflated for viability.
-			create_pop = {
-				culture = swahili
-				size = 9210
-			}
-			create_pop = {
-				culture = somali
-				size = 7070
-			}
-			create_pop = {
-				culture = oromo
-				religion = sunni
-				size = 2220
-			}
-		}
+		
 		region_state:OMA = {
 			create_pop = {
 				culture = swahili
@@ -1257,8 +1242,7 @@
 				culture = lacustrine_bantu
 				size = 8000
 			}
-		}
-		region_state:MBS = {
+		
 			# ballparking this at 30000, which is probably being a little generous
 
 			create_pop = {
@@ -1275,7 +1259,23 @@
 				culture = lacustrine_bantu
 				size = 2400
 			}
+		
+			# total number: 18500. Historical figure might've been a fifth of this, judging by Lamu County's current population versus Kenya's as a whole. Number inflated for viability.
+			create_pop = {
+				culture = swahili
+				size = 9210
+			}
+			create_pop = {
+				culture = somali
+				size = 7070
+			}
+			create_pop = {
+				culture = oromo
+				religion = sunni
+				size = 2220
+			}
 		}
+		
 		region_state:MJK = {
 			create_pop = {
 				culture = lacustrine_bantu
@@ -1314,13 +1314,8 @@
 		}
 	}
 	s:STATE_RIFT_VALLEY = {
-		region_state:MSI = {
-			create_pop = {
-				culture = maasai
-				size = 42000
-			}
-		}
-		region_state:LUO = {
+		
+		region_state:BUG = {
 			create_pop = {
 				culture = luo
 				size = 102404
@@ -1330,8 +1325,12 @@
 				culture = luo
 				size = 6000
 			}
-		}
-		region_state:TRK = {
+		
+			create_pop = {
+				culture = maasai
+				size = 42000
+			}
+		
 			create_pop = {
 				culture = nilotic
 				size = 155800
@@ -1351,6 +1350,7 @@
 				size = 4000
 			}
 		}
+		
 	}
 	s:STATE_OROMIA = {
 		region_state:HAR = {
@@ -1869,8 +1869,31 @@
 				culture = baganda
 				size = 292188
 			}
-		}
-		region_state:BNY = {
+		
+			create_pop = {
+				culture = luo
+				size = 201600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = luo
+				size = 7200
+			}
+		
+			create_pop = {
+				culture = baganda
+				size = 171000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = baganda
+				size = 9000
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 62000
+			}
+		
 			create_pop = {
 				culture = baganda
 				size = 200000
@@ -1890,32 +1913,9 @@
 				size = 2000
 			}
 		}
-		region_state:ANK = {
-			create_pop = {
-				culture = baganda
-				size = 171000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = baganda
-				size = 9000
-			}
-			create_pop = {
-				culture = lacustrine_bantu
-				size = 62000
-			}
-		}
-		region_state:ACH = {
-			create_pop = {
-				culture = luo
-				size = 201600
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = luo
-				size = 7200
-			}
-		}
+		
+		
+		
 	}
 	s:STATE_EQUATORIA = {
 		region_state:DNK = {
@@ -2113,7 +2113,40 @@
 		}
 	}
 	s:STATE_WADDAI = {
-		region_state:WAD = {
+		
+		region_state:SOK = {
+			create_pop = {
+				culture = baguirmi
+				size = 31992
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 32000
+			}
+			create_pop = {
+				culture = sara
+				size = 68000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sara
+				size = 8000
+			}
+		
+			create_pop = {
+				culture = bedouin
+				size = 12000
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 14000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 3000
+			}
+		
 			create_pop = {
 				culture = fur
 				size = 108004
@@ -2132,40 +2165,7 @@
 				size = 12000
 			}
 		}
-		region_state:BGI = {
-			create_pop = {
-				culture = baguirmi
-				size = 31992
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 32000
-			}
-			create_pop = {
-				culture = sara
-				size = 68000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sara
-				size = 8000
-			}
-		}
-		region_state:BOR = {
-			create_pop = {
-				culture = bedouin
-				size = 12000
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 14000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 3000
-			}
-		}
+		
 	}
 	s:STATE_NORTH_CAMEROON = {
 		region_state:SOK = {
@@ -2195,8 +2195,7 @@
 				culture = fulbe
 				size = 10000
 			}
-		}
-		region_state:BMM = {
+		
 			create_pop = {
 				culture = equatorial_bantu
 				religion = sunni
@@ -2212,6 +2211,7 @@
 				size = 10020
 			}
 		}
+		
 	}
 	s:STATE_SOUTH_CAMEROON = {
 		region_state:SIL = {
@@ -3034,7 +3034,19 @@
 	}
 	s:STATE_ZULULAND = {
 		# Total population of Natal (which was /very roughly/ coterminous with the Zulu Kingdom's 1836 borders after the annexation of Zululand in 1897) in 1904 was 1108754, of which 904041 were recorded as 'Black'. This is after Vryheid, Utrecht, and neighboring territories were annexed, which also increased Natal's population by approx. 98k overall, of which 92k were 'natives'. The Anglo-Zulu War led to some population loss in Zululand, but Zulu's population in 1836 should definitely be lower. I've seen an estimate of 250k people in the Zulu Kingdom floating around, but I can't find the original source, and that number only pops up uncited in articles since 2017 or so making me suspect everyone is copying the same uncited entry from Wikipedia, so I'm a little wary and will simply choose a similar number of my own choosing.
-		region_state:ZUL = {
+		
+		# Basutoland 1875 estimated population of 128206, after the Free State-Basuto Wars.
+		region_state:ORA = {
+			create_pop = {
+				culture = sotho
+				size = 100096
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sotho
+				size = 7900
+			}
+		
 			create_pop = {
 				culture = zulu
 				size = 267996
@@ -3052,18 +3064,6 @@
 				pop_type = slaves
 				culture = xhosa
 				size = 16000
-			}
-		}
-		# Basutoland 1875 estimated population of 128206, after the Free State-Basuto Wars.
-		region_state:BST = {
-			create_pop = {
-				culture = sotho
-				size = 100096
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sotho
-				size = 7900
 			}
 		}
 	}
@@ -3087,8 +3087,12 @@
 				culture = nguni
 				size = 10000
 			}
-		}
-		region_state:PHL = {
+		
+			create_pop = {
+				culture = sotho
+				size = 27100
+			}
+		
 			create_pop = {
 				culture = griqua
 				size = 12080
@@ -3107,15 +3111,11 @@
 				size = 1200
 			}
 		}
-		region_state:BST = {
-			create_pop = {
-				culture = sotho
-				size = 27100
-			}
-		}
+		
+		
 	}
 	s:STATE_TRANSVAAL = {
-		region_state:MTB = {
+		region_state:ORA = {
 			create_pop = {
 				culture = sotho
 				size = 156804
@@ -3132,14 +3132,17 @@
 				culture = zulu
 				size = 28000
 			}
-		}
-		region_state:PDI = {
+		
 			create_pop = {
 				culture = sotho
 				size = 320000
 			}
-		}
-		region_state:TRN = {
+		
+			create_pop = {
+				culture = nguni
+				size = 64396
+			}
+		
 			create_pop = {
 				culture = boer
 				size = 10192
@@ -3157,14 +3160,7 @@
 				culture = khoisan
 				size = 10000
 			}
-		}
-		region_state:SWZ = {
-			create_pop = {
-				culture = nguni
-				size = 64396
-			}
-		}
-		region_state:VND = {
+		
 			create_pop = {
 				culture = shona
 				size = 67000
@@ -3174,6 +3170,10 @@
 				size = 22000
 			}
 		}
+		
+		
+		
+		
 	}
 	s:STATE_EASTERN_CAPE = {
 		region_state:SAF = {
@@ -3193,13 +3193,13 @@
 				culture = khoisan
 				size = 27996
 			}
-		}
-		region_state:XHO = {
+		
 			create_pop = {
 				culture = xhosa
 				size = 152200
 			}
 		}
+		
 	}
 	s:STATE_CAPE_COLONY = {
 		region_state:SAF = {
@@ -3228,13 +3228,13 @@
 				culture = griqua
 				size = 12148
 			}
-		}
-		region_state:NAM = {
+		
 			create_pop = {
 				culture = khoisan
 				size = 15300
 			}			
 		}
+		
 	}
 	# 73000
 	s:STATE_NORTHERN_CAPE = {
@@ -3263,8 +3263,12 @@
 				culture = griqua
 				size = 25790
 			}
-		}
-		region_state:TSW = {
+		
+			create_pop = {
+				culture = khoisan
+				size = 12000
+			}
+		
 			create_pop = {
 				culture = tswana
 				size = 120004
@@ -3274,8 +3278,7 @@
 				culture = tswana
 				size = 12000
 			}
-		}
-		region_state:WBL = {
+		
 			create_pop = {
 				culture = griqua
 				size = 17000
@@ -3293,12 +3296,9 @@
 				size = 6000
 			}
 		}
-		region_state:SAN = {
-			create_pop = {
-				culture = khoisan
-				size = 12000
-			}
-		}
+		
+		
+		
 	}
 	s:STATE_BOTSWANA = {
 		region_state:TSW = {

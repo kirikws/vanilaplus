@@ -314,7 +314,7 @@
 		}
 	}
 	s:STATE_DARFUR = {
-		region_state:DFR = {
+		region_state:EGY = {
 			create_pop = {
 				culture = fur
 				size = 199192
@@ -1344,29 +1344,7 @@
 		}
 	}
 	s:STATE_CHAD = {
-		region_state:WAD = {
-			create_pop = {
-				culture = bedouin
-				size = 42000
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 49000
-			}
-			create_pop = {
-				culture = fur
-				size = 32060
-			}
-			create_pop = {
-				culture = tuareg
-				size = 3000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = equatorial_bantu
-				size = 8000
-			}
-		}
+		
 		region_state:TBI = {
 			create_pop = {
 				culture = teda
@@ -1387,7 +1365,7 @@
 				size = 6000
 			}
 		}
-		region_state:BOR = {
+		region_state:SOK = {
 			create_pop = {
 				culture = kanuri
 				size = 28000
@@ -1404,6 +1382,28 @@
 				pop_type = slaves
 				culture = equatorial_bantu
 				size = 7000
+			}
+		
+			create_pop = {
+				culture = bedouin
+				size = 42000
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 49000
+			}
+			create_pop = {
+				culture = fur
+				size = 32060
+			}
+			create_pop = {
+				culture = tuareg
+				size = 3000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 8000
 			}
 		}
 	}
