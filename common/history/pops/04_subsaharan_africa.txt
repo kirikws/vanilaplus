@@ -399,8 +399,7 @@
 				religion = protestant
 				size = 16400
 			}
-		}
-		region_state:KRU = {
+		
 			create_pop = {
 				culture = kru
 				size = 200100
@@ -409,8 +408,7 @@
 				culture = bassa
 				size = 10031
 			}
-		}
-		region_state:MDK = {
+		
 			create_pop = {
 				culture = mande
 				size = 152020
@@ -424,6 +422,8 @@
 				size = 79200
 			}
 		}
+		
+		
 	}
 	s:STATE_HAUSALAND = {
 		region_state:SOK = {

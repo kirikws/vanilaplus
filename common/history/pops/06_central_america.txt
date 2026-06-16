@@ -255,17 +255,26 @@
 		}
 	}
 	s:STATE_WEST_INDIES = {
-		region_state:FRA = {
+		
+		
+		
+		
+		region_state:VNZ = {
+			# Very rough backwards calculation of Nueva Esparta's population in 1921
 			create_pop = {
-				culture = french
-				size = 22200
+				culture = north_andean
+				size = 17123
 			}
 			create_pop = {
-				culture = afro_antillean
-				size = 216104
+				culture = afro_caribeno
+				size = 1310
 			}
-		}
-		region_state:DEN = {
+			create_pop = {
+				pop_type = slaves
+				culture = afro_caribeno
+				size = 1012
+			}
+		
 			create_pop = {
 				culture = danish
 				size = 3992
@@ -274,8 +283,16 @@
 				culture = afro_caribbean
 				size = 39996
 			}
-		}
-		region_state:GBR = {
+		
+			create_pop = {
+				culture = french
+				size = 22200
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 216104
+			}
+		
 			create_pop = {
 				culture = british
 				size = 34704
@@ -288,8 +305,7 @@
 				culture = dutch
 				size = 396
 			}
-		}
-		region_state:NET = {
+		
 			# Population of ~23700 recorded in 1849
 			create_pop = {
 				culture = afro_brazilian # Papiamento-speakers
@@ -307,22 +323,6 @@
 			create_pop = {
 				culture = sephardic
 				size = 1202
-			}
-		}
-		region_state:VNZ = {
-			# Very rough backwards calculation of Nueva Esparta's population in 1921
-			create_pop = {
-				culture = north_andean
-				size = 17123
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 1310
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 1012
 			}
 		}
 	}
