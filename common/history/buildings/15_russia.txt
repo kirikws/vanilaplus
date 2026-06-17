@@ -228,13 +228,13 @@
 		}
 	}
 	s:STATE_KUOPIO={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:FIN"
+						country="c:SWE"
 						levels=2
 						region="STATE_KUOPIO"
 					}
@@ -247,7 +247,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_UUSIMAA"
 					}
@@ -258,12 +258,12 @@
 		}
 	}
 	s:STATE_UUSIMAA={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 					}
 				}
@@ -275,7 +275,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_UUSIMAA"
 					}
@@ -288,7 +288,7 @@
 				add_ownership={
 					building={
 						type="building_furniture_manufactory"
-						country="c:FIN"
+						country="c:SWE"
 						levels=2
 						region="STATE_UUSIMAA"
 					}
@@ -301,7 +301,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:FIN"
+						country="c:SWE"
 						levels=2
 						region="STATE_UUSIMAA"
 					}
@@ -313,7 +313,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=2
 					}
 				}
@@ -325,7 +325,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_UUSIMAA"
 					}
@@ -338,13 +338,13 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_UUSIMAA"
 					}
 					building={
 						type="building_financial_district"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_UUSIMAA"
 					}
@@ -356,7 +356,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 					}
 				}
@@ -367,7 +367,7 @@
 				building="building_naval_fortification"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=2
 					}
 				}
@@ -376,12 +376,12 @@
 		}
 	}
 	s:STATE_WEST_KARELIA={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 					}
 				}
@@ -393,7 +393,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_WEST_KARELIA"
 					}
@@ -406,7 +406,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_WEST_KARELIA"
 					}
@@ -419,7 +419,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_WEST_KARELIA"
 					}
@@ -431,7 +431,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 					}
 				}
@@ -441,12 +441,12 @@
 		}
 	}
 	s:STATE_ALAND={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_naval_fortification"
 				add_ownership={
 					country={
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 					}
 				}
@@ -455,13 +455,13 @@
 		}
 	}
 	s:STATE_OSTROBOTHNIA={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_OSTROBOTHNIA"
 					}
@@ -474,7 +474,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_OSTROBOTHNIA"
 					}
@@ -485,13 +485,13 @@
 		}
 	}
 	s:STATE_OULU={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:FIN"
+						country="c:SWE"
 						levels=1
 						region="STATE_OULU"
 					}

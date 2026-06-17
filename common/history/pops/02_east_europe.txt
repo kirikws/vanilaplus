@@ -393,8 +393,7 @@
 				culture = ashkenazi
 				size = 128500
 			}
-		}
-		region_state:KRA = {
+		
 			create_pop = {
 				culture = ashkenazi
 				pop_type = shopkeepers
@@ -427,6 +426,7 @@
 				size = 16000
 			}
 		}
+		
 	}
 	s:STATE_EAST_GALICIA = {
 		region_state:AUS = {

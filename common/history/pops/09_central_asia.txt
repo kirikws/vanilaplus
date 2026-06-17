@@ -641,7 +641,30 @@
 		}
 	}
 	s:STATE_KIRGHIZIA = {
-		region_state:KOK = {
+		
+		region_state:HIN = {
+			create_pop = {
+				culture = kirgiz
+				size = 30150
+			}
+			create_pop = {
+				culture = uzbek
+				size = 25000
+			}
+			create_pop = {
+				culture = kazak
+				size = 16002
+			}
+			create_pop = {
+				culture = uighur
+				size = 11000
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 6100
+			}
+		
 			create_pop = {
 				culture = kirgiz
 				size = 182150
@@ -681,29 +704,6 @@
 				culture = kirgiz
 				religion = animist
 				size = 8000
-			}
-		}
-		region_state:CHI = {
-			create_pop = {
-				culture = kirgiz
-				size = 30150
-			}
-			create_pop = {
-				culture = uzbek
-				size = 25000
-			}
-			create_pop = {
-				culture = kazak
-				size = 16002
-			}
-			create_pop = {
-				culture = uighur
-				size = 11000
-			}
-			create_pop = {
-				culture = kirgiz
-				religion = animist
-				size = 6100
 			}
 		}
 	}

@@ -97,7 +97,7 @@ AUS = {
 
 	tier = empire
 
-	cultures = { south_german }
+	cultures = { south_german hungarian }
 	capital = STATE_AUSTRIA
 
 	primary_unit_color = { 211 220 240 }

@@ -443,13 +443,28 @@
 		}
 	}
 	s:STATE_KIRGHIZIA={
-		region_state:KOK={
+		
+		region_state:HIN={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOK"
+						country="c:HIN"
+						levels=1
+						region="STATE_KIRGHIZIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+		
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:HIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -462,7 +477,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOK"
+						country="c:HIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -475,7 +490,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOK"
+						country="c:HIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -487,27 +502,12 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:KOK"
+						country="c:HIN"
 						levels=10
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-		region_state:CHI={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:CHI"
-						levels=1
-						region="STATE_KIRGHIZIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 			}
 		}
 	}

@@ -1991,16 +1991,24 @@
 				culture = korean
 				size = 2409741
 			}
-			create_pop = { # Japanese traders and merchants in Busan Waegwans, etc.
-				culture = japanese
-				pop_type = shopkeepers
-				size = 1210
-			}
+			
 			create_pop = {
 				culture = korean
 				religion = mahayana
 				size = 1186886
 			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				pop_type = shopkeepers
+				size = 12100
+			}
+			create_pop = { 
+				culture = japanese
+				size = 90100
+			}
+
 		}
 	}
 	s:STATE_YANGHO = {
