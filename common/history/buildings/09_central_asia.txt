@@ -444,13 +444,13 @@
 	}
 	s:STATE_KIRGHIZIA={
 		
-		region_state:HIN={
+		region_state:XIN={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HIN"
+						country="c:XIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -464,7 +464,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HIN"
+						country="c:XIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -477,7 +477,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HIN"
+						country="c:XIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -490,7 +490,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HIN"
+						country="c:XIN"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -502,7 +502,7 @@
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:HIN"
+						country="c:XIN"
 						levels=10
 					}
 				}
@@ -512,13 +512,13 @@
 		}
 	}
 	s:STATE_JETISY={
-		region_state:CHI={
+		region_state:XIN={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:XIN"
 						levels=1
 						region="STATE_JETISY"
 					}
@@ -531,7 +531,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:CHI"
+						country="c:XIN"
 						levels=1
 						region="STATE_JETISY"
 					}

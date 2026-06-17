@@ -1,8 +1,26 @@
 ﻿DIPLOMACY = {
-	c:NET ?= {
+	c:RUS ?= {
 		create_bidirectional_truce = {
-			country = c:BEL
-			months = 40
+			country = c:MGL
+			months = 408
+		}
+	}
+}
+
+DIPLOMACY = {
+	c:RUS ?= {
+		create_bidirectional_truce = {
+			country = c:XIN
+			months = 408
+		}
+	}
+}
+
+DIPLOMACY = {
+	c:RUS ?= {
+		create_bidirectional_truce = {
+			country = c:MCH
+			months = 528
 		}
 	}
 }

@@ -469,7 +469,7 @@
 		}
 	}
 	s:STATE_JETISY = {
-		region_state:CHI = {
+		region_state:XIN = {
 			create_pop = {
 				culture = kazak
 				size = 50642
@@ -642,7 +642,7 @@
 	}
 	s:STATE_KIRGHIZIA = {
 		
-		region_state:HIN = {
+		region_state:XIN = {
 			create_pop = {
 				culture = kirgiz
 				size = 30150

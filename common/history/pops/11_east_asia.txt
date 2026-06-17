@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_DZUNGARIA = {
-		region_state:CHI = {
+		region_state:XIN = {
 			# Based off estimates by James Millward and Wang Xilong
 			# Northern Xinjiang excluding Turfan and the Khumul Khanate
 			create_pop = {
@@ -67,7 +67,7 @@
 		}
 	}
 	s:STATE_TIANSHAN = {
-		region_state:CHI = {
+		region_state:XIN = {
 			# Based off estimates by James Millward and Wang Xilong
 			# Only some 'hundreds' Chinese merchants were settled in the Tarim Basis
 			create_pop = {
@@ -354,7 +354,7 @@
 		}
 	}
 	s:STATE_SHENGJING = {
-		region_state:CHI = {
+		region_state:MCH = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 1091006
@@ -376,7 +376,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:MCH = {
 			create_pop = {
 				culture = manchu
 				size = 5210800
@@ -401,7 +401,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:CHI = {
+		region_state:MCH = {
 			create_pop = {
 				culture = manchu
 				size = 2821200
@@ -1026,7 +1026,7 @@
 	}
 	# Population of Outer Mongolia should be somewhat over 600,000, but I could not find data for a more granular distribution in regards to West vs East. Due to the existence of more banners in the East, I have assumed this also means a somewhat higher population.
 	s:STATE_ULIASTAI = {
-		region_state:CHI = {
+		region_state:MGL = {
 			create_pop = {
 				culture = mongol
 				size = 270000
@@ -1042,7 +1042,7 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:CHI = {
+		region_state:MGL = {
 			create_pop = {
 				culture = mongol
 				size = 340000
