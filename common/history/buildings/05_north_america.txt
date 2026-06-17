@@ -534,47 +534,47 @@
 	}
 	s:STATE_WYOMING={
 		region_state:USA={
+		
 		}
-		region_state:LKT={
-		}
+		
 		region_state:ARP={
 		}
 	}
 	s:STATE_MONTANA={
 		region_state:USA={
+		
 		}
 		region_state:ABS={
 		}
-		region_state:LKT={
-		}
+		
 		region_state:BLF={
 		}
 	}
 	s:STATE_NORTH_DAKOTA={
 		region_state:USA={
+		
 		}
-		region_state:LKT={
-		}
+		
 	}
 	s:STATE_SOUTH_DAKOTA={
-		region_state:LKT={
-		}
+		
 		region_state:USA={
+		
 		}
 	}
 	s:STATE_NEBRASKA={
 		region_state:USA={
+		
+		
 		}
-		region_state:LKT={
-		}
-		region_state:PWN={
-		}
+		
+		
 	}
 	s:STATE_KANSAS={
 		region_state:USA={
+		
 		}
-		region_state:PWN={
-		}
+		
 		region_state:COM={
 		}
 	}
@@ -706,9 +706,9 @@
 	}
 	s:STATE_MINNESOTA={
 		region_state:USA={
+		
 		}
-		region_state:LKT={
-		}
+		
 	}
 	s:STATE_WISCONSIN={
 		region_state:USA={

@@ -244,13 +244,13 @@
 				culture = siouan
 				size = 8000
 			}
-		}
-		region_state:LKT = {
+		
 			create_pop = {
 				culture = siouan
 				size = 6000
 			}
 		}
+		
 		region_state:ARP = {
 			create_pop = {
 				culture = siouan
@@ -287,6 +287,11 @@
 				culture = dakota
 				size = 2000
 			}
+		
+			create_pop = {
+				culture = dakota
+				size = 6000
+			}
 		}
 		region_state:ABS = {
 			create_pop = {
@@ -294,12 +299,7 @@
 				size = 28000
 			}
 		}
-		region_state:LKT = {
-			create_pop = {
-				culture = dakota
-				size = 6000
-			}
-		}
+		
 		region_state:BLF = {
 			create_pop = {
 				culture = siouan
@@ -320,9 +320,7 @@
 				culture = siouan
 				size = 6000
 			}
-		}
-		# DKT had 22000
-		region_state:LKT = {
+		
 			create_pop = {
 				culture = dakota
 				size = 30000
@@ -332,18 +330,20 @@
 				size = 4000
 			}
 		}
+		# DKT had 22000
+		
 	}
 	s:STATE_SOUTH_DAKOTA = {
-		region_state:LKT = {
-			create_pop = {
-				culture = dakota
-				size = 34000
-			}
-		}
+		
 		region_state:USA = {
 			create_pop = {
 				culture = siouan
 				size = 4000
+			}
+		
+			create_pop = {
+				culture = dakota
+				size = 34000
 			}
 		}
 		# DKT has 12000
@@ -354,14 +354,12 @@
 				culture = siouan
 				size = 4000
 			}
-		}
-		region_state:LKT = {
+		
 			create_pop = {
 				culture = dakota
 				size = 4000
 			}
-		}
-		region_state:PWN = {
+		
 			create_pop = {
 				culture = caddoan
 				size = 10000
@@ -371,6 +369,8 @@
 				size = 2000
 			}
 		}
+		
+		
 	}
 	s:STATE_KANSAS = {
 		region_state:USA = {
@@ -378,13 +378,13 @@
 				culture = siouan
 				size = 12000
 			}
-		}
-		region_state:PWN = {
+		
 			create_pop = {
 				culture = caddoan
 				size = 8000
 			}
 		}
+		
 		region_state:COM = {
 			create_pop = {
 				culture = siouan
@@ -506,13 +506,13 @@
 				culture = algonquian
 				size = 16000
 			}
-		}
-		region_state:LKT = {
+		
 			create_pop = {
 				culture = dakota
 				size = 22000
 			}
 		}
+		
 	}
 	s:STATE_WISCONSIN = {
 		region_state:USA = {
@@ -715,14 +715,14 @@
 				culture = muskogean
 				size = 3000
 			}
-		}
-		region_state:SML = {
+		
 			create_pop = {
 				culture = muskogean
 				#size = 5000 # historical increased for gameplay
 				size = 10000
 			}
 		}
+		
 	}
 	s:STATE_GEORGIA = {
 		region_state:USA = {
