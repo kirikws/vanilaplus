@@ -616,7 +616,7 @@
 						type="building_manor_house"
 						country="c:VNZ"
 						levels=1
-						region="STATE_BOLIVAR"
+						region="STATE_WEST_INDIES"
 					}
 				}
 				reserves=1
@@ -641,7 +641,7 @@
 						type="building_manor_house"
 						country="c:VNZ"
 						levels=1
-						region="STATE_ZEALAND"
+						region="STATE_WEST_INDIES"
 					}
 				}
 				reserves=1
@@ -656,7 +656,7 @@
 						type="building_financial_district"
 						country="c:VNZ"
 						levels=1
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_WEST_INDIES"
 					}
 				}
 				reserves=1
@@ -668,7 +668,7 @@
 						type="building_manor_house"
 						country="c:VNZ"
 						levels=3
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_WEST_INDIES"
 					}
 				}
 				reserves=1
@@ -681,7 +681,7 @@
 						type="building_manor_house"
 						country="c:VNZ"
 						levels=2
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_WEST_INDIES"
 					}
 				}
 				reserves=1
@@ -694,7 +694,7 @@
 						type="building_manor_house"
 						country="c:VNZ"
 						levels=2
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_WEST_INDIES"
 					}
 				}
 				reserves=1

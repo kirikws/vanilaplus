@@ -5285,13 +5285,13 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS={
-		region_state:GRE={
+		region_state:TUR={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_WEST_AEGEAN_ISLANDS"
 					}
@@ -5303,7 +5303,7 @@
 				building="building_naval_administration"
 				add_ownership={
 					country={
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 					}
 				}
@@ -5330,12 +5330,12 @@
 		}
 	}
 	s:STATE_ATTICA={
-		region_state:GRE={
+		region_state:TUR={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:GRE"
+						country="c:TUR"
 						levels=2
 					}
 				}
@@ -5347,7 +5347,7 @@
 				add_ownership={
 					building={
 						type="building_vineyard"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5361,7 +5361,7 @@
 				add_ownership={
 					building={
 						type="building_trade_center"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5373,7 +5373,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5386,7 +5386,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5399,7 +5399,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5412,7 +5412,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5425,13 +5425,13 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
 					building={
 						type="building_financial_district"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_ATTICA"
 					}
@@ -5444,7 +5444,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GRE"
+						country="c:TUR"
 						levels=2
 						region="STATE_ATTICA"
 					}
@@ -5456,7 +5456,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 					}
 				}
@@ -5754,13 +5754,13 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS={
-		region_state:ION={
+		region_state:TUR={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_wheat_farm"
-						country="c:ION"
+						country="c:TUR"
 						levels=1
 						region="STATE_IONIAN_ISLANDS"
 					}
@@ -5773,7 +5773,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:ION"
+						country="c:TUR"
 						levels=1
 						region="STATE_IONIAN_ISLANDS"
 					}
@@ -5785,7 +5785,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:ION"
+						country="c:TUR"
 						levels=1
 					}
 				}
@@ -5796,7 +5796,7 @@
 				building="building_naval_fortification"
 				add_ownership={
 					country={
-						country="c:ION"
+						country="c:TUR"
 						levels=1
 					}
 				}
@@ -5805,13 +5805,13 @@
 		}
 	}
 	s:STATE_PELOPONNESE={
-		region_state:GRE={
+		region_state:TUR={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_PELOPONNESE"
 					}
@@ -5824,7 +5824,7 @@
 				add_ownership={
 					building={
 						type="building_vineyard"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_PELOPONNESE"
 					}
@@ -5837,7 +5837,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 						region="STATE_PELOPONNESE"
 					}
@@ -5849,7 +5849,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GRE"
+						country="c:TUR"
 						levels=1
 					}
 				}

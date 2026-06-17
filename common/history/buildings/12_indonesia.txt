@@ -352,7 +352,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -483,7 +483,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:NET"
+						country="c:BEL"
 						levels=3
 						region="STATE_HOLLAND"
 					}
@@ -512,7 +512,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:NET"
+						country="c:BEL"
 						levels=3
 						region="STATE_HOLLAND"
 					}
@@ -531,19 +531,19 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=10
 						region="STATE_HOLLAND"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRIESLAND"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=3
 						region="STATE_GELRE"
 					}
@@ -562,13 +562,13 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=7
 						region="STATE_HOLLAND"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRIESLAND"
 					}
@@ -581,7 +581,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=3
 						region="STATE_HOLLAND"
 					}
@@ -594,7 +594,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_HOLLAND"
 					}
@@ -607,7 +607,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_HOLLAND"
 					}
@@ -662,13 +662,13 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=4
 						region="STATE_HOLLAND"
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRIESLAND"
 					}
@@ -700,7 +700,7 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=4
 						region="STATE_HOLLAND"
 					}
@@ -713,7 +713,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_HOLLAND"
 					}
@@ -726,7 +726,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -739,7 +739,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=4
 						region="STATE_HOLLAND"
 					}
@@ -752,7 +752,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -803,7 +803,7 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=4
 						region="STATE_HOLLAND"
 					}
@@ -835,7 +835,7 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_HOLLAND"
 					}
@@ -848,7 +848,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -861,7 +861,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -880,7 +880,7 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -899,7 +899,7 @@
 					}
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -1122,7 +1122,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -1141,7 +1141,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -1275,7 +1275,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -1288,7 +1288,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=2
 						region="STATE_HOLLAND"
 					}
@@ -1391,7 +1391,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=1
 						region="STATE_HOLLAND"
 					}
@@ -1430,7 +1430,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:NET"
+						country="c:BEL"
 						levels=3
 						region="STATE_HOLLAND"
 					}

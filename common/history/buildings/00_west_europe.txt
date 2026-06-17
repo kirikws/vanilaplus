@@ -3559,16 +3559,16 @@
 		}
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES={
-		region_state:FRA={
+		region_state:BEL={
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=1
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 				}
 				reserves=1
@@ -3578,12 +3578,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 					country={
-						country="c:FRA"
+						country="c:BEL"
 						levels=4
 					}
 				}
@@ -3594,7 +3594,7 @@
 				building="building_artillery_foundry"
 				add_ownership={
 					country={
-						country="c:FRA"
+						country="c:BEL"
 						levels=2
 					}
 				}
@@ -3606,7 +3606,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
@@ -3619,15 +3619,15 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=1
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=2
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 				}
 				reserves=1
@@ -3638,13 +3638,13 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FRA"
+						country="c:BEL"
 						levels=3
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 					building={
 						type="building_manor_house"
-						country="c:FRA"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
@@ -3657,7 +3657,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:FRA"
+						country="c:BEL"
 						levels=2
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
@@ -3669,7 +3669,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:FRA"
+						country="c:BEL"
 						levels=1
 					}
 				}
@@ -3681,15 +3681,15 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=3
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=6
-						region="STATE_ILE_DE_FRANCE"
+						region="STATE_FRENCH_LOW_COUNTRIES"
 					}
 				}
 				reserves=1
@@ -3700,7 +3700,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:FRA"
+						country="c:BEL"
 						levels=1
 						region="STATE_FRENCH_LOW_COUNTRIES"
 					}

@@ -205,7 +205,7 @@ JAP = {
 
 	tier = empire
 
-	cultures = { japanese }
+	cultures = { japanese korean }
 	capital = STATE_KYOTO
 }
 
@@ -1109,7 +1109,7 @@ TUR = {
 
 	tier = empire
 
-	cultures = { turkish }
+	cultures = { turkish bedouin misri }
 	capital = STATE_EASTERN_THRACE
 }
 

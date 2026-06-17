@@ -1070,7 +1070,7 @@ STATES = {
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		create_state = {
-			country = c:ION
+			country = c:TUR
 			owned_provinces = { x4B79CA x405060 }
 		}
 
@@ -1079,7 +1079,7 @@ STATES = {
 	}
 	s:STATE_PELOPONNESE = {
 		create_state = {
-			country = c:GRE
+			country = c:TUR
 			owned_provinces = { x0055D7 x43409D xC0D060 xBA3449 x61E57E }
 		}
 
@@ -3424,7 +3424,7 @@ STATES = {
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES = {
 		create_state = {
-			country = c:FRA
+			country = c:BEL
 			owned_provinces = { x106000 x5362AC x70C020 xA0A080 xD0854D xE0A0C0 }
 		}
 		add_homeland = cu:french
@@ -4471,7 +4471,7 @@ STATES = {
 	}
 	s:STATE_ATTICA = {
 		create_state = {
-			country = c:GRE
+			country = c:TUR
 			owned_provinces = { xC72C61 x8D7F62 x518791 x0A645C xBF5160 x465F8D xCA246A xA010A0 }
 		}
 
@@ -6130,7 +6130,7 @@ STATES = {
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
 		create_state = {
-			country = c:GRE
+			country = c:TUR
 			owned_provinces = { x6090A0 x6960a0 }
 		}
 
