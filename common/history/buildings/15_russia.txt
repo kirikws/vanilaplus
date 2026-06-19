@@ -1830,20 +1830,20 @@
 		}
 	}
 	s:STATE_URALSK={
-		region_state:RUS={
-		}
-		region_state:KZH={
+		
+		region_state:KHI={
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
-						country="c:KZH"
+						country="c:KHI"
 						levels=3
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
+		
 		}
 	}
 	s:STATE_KHIVA={
@@ -1942,9 +1942,9 @@
 	}
 	s:STATE_MERZ={
 		region_state:KHI={
+		
 		}
-		region_state:BUK={
-		}
+		
 	}
 	s:STATE_SYRDARYA={
 		region_state:OZH={

@@ -124,8 +124,7 @@
 				culture = inuit
 				size = 1968
 			}
-		}
-		region_state:ATB = {
+		
 			create_pop = {
 				culture = athabaskan
 				size = 28000
@@ -135,6 +134,7 @@
 				size = 16000
 			}
 		}
+		
 	}
 	s:STATE_WASHINGTON = {
 		region_state:ORG = {

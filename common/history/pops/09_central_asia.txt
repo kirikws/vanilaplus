@@ -361,22 +361,9 @@
 		}
 	}
 	s:STATE_URALSK = {
-		region_state:RUS = {
-			create_pop = {
-				culture = kazak
-				size = 61200
-			}
-			create_pop = {
-				culture = russian
-				size = 32112
-			}
-			create_pop = {
-				culture = tatar
-				size = 4260
-			}
-		}
+		
 
-		region_state:KZH = {
+		region_state:KHI = {
 			create_pop = {
 				culture = kazak
 				size = 115489
@@ -389,9 +376,20 @@
 				culture = tatar
 				size = 1400
 			}
-		}
-
-		region_state:TRM = {
+		
+			create_pop = {
+				culture = kazak
+				size = 61200
+			}
+			create_pop = {
+				culture = russian
+				size = 32112
+			}
+			create_pop = {
+				culture = tatar
+				size = 4260
+			}
+		
 			create_pop = {
 				culture = turkmen
 				size = 9607
@@ -405,6 +403,8 @@
 				size = 140
 			}
 		}
+
+		
 	}
 	s:STATE_AKTOBE = {
 		region_state:KZH = {
@@ -517,8 +517,17 @@
 				culture = persian
 				size = 223100
 			}
-		}
-		region_state:TRM = {
+		
+			create_pop = {
+				culture = kazak
+				size = 9021
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = persian
+				size = 385
+			}
+		
 			create_pop = {
 				culture = turkmen
 				size = 12222
@@ -529,17 +538,8 @@
 				size = 2010
 			}
 		}
-		region_state:KZH = {
-			create_pop = {
-				culture = kazak
-				size = 9021
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = persian
-				size = 385
-			}
-		}
+		
+		
 	}
 	s:STATE_UZBEKIA = {
 		region_state:BUK = {
@@ -750,7 +750,32 @@
 		}
 	}
 	s:STATE_MERZ = {
-		region_state:TRM = {
+		
+		region_state:KHI = {
+			create_pop = {
+				culture = turkmen
+				size = 32001
+			}
+			create_pop = {
+				culture = persian
+				pop_type = slaves
+				size = 1021
+			}
+		
+			create_pop = {
+				culture = turkmen
+				size = 45120
+			}
+			create_pop = {
+				culture = uzbek
+				size = 2005
+			}
+			create_pop = {
+				culture = persian
+				pop_type = slaves
+				size = 9621
+			}
+		
 			create_pop = {
 				culture = turkmen
 				size = 151020
@@ -765,32 +790,7 @@
 				size = 9021
 			}
 		}
-		region_state:KHI = {
-			create_pop = {
-				culture = turkmen
-				size = 32001
-			}
-			create_pop = {
-				culture = persian
-				pop_type = slaves
-				size = 1021
-			}
-		}
-		region_state:BUK = {
-			create_pop = {
-				culture = turkmen
-				size = 45120
-			}
-			create_pop = {
-				culture = uzbek
-				size = 2005
-			}
-			create_pop = {
-				culture = persian
-				pop_type = slaves
-				size = 9621
-			}
-		}
+		
 	}
 	s:STATE_FERGANA = {
 		region_state:KOK = {
@@ -823,21 +823,7 @@
 		}
 	}
 	s:STATE_TURKMENIA = {
-		region_state:TRM = {
-			create_pop = {
-				culture = turkmen
-				size = 246004
-			}
-			create_pop = {
-				culture = persian
-				size = 33020
-			}
-			create_pop = {
-				culture = persian
-				pop_type = slaves
-				size = 44021
-			}
-		}
+		
 		region_state:KHI = {
 			create_pop = {
 				culture = turkmen
@@ -851,6 +837,20 @@
 				culture = persian
 				pop_type = slaves
 				size = 1221
+			}
+		
+			create_pop = {
+				culture = turkmen
+				size = 246004
+			}
+			create_pop = {
+				culture = persian
+				size = 33020
+			}
+			create_pop = {
+				culture = persian
+				pop_type = slaves
+				size = 44021
 			}
 		}
 	}
